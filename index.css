@@ -1,0 +1,27 @@
+h1 {
+	color: #60D3FF;
+	font-family: apple chancery, arial, sans-serif;
+	padding-left: 100px;
+	border-width: 2px;
+	border-style: dashed;
+}
+
+body {
+	background-color: #C0EDFF;
+}
+
+h2 {
+	color: #FFFFFF;
+}
+
+h3 {
+	color: #FFFFFF
+}
+p {
+	color:#0AB9FB;
+	font-family: sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
