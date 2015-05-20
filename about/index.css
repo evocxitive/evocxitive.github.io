@@ -1,2 +1,36 @@
+h1 {
+	color: #60D3FF;
+	font-family: apple chancery, arial, sans-serif;
+	padding-left: 100px;
+	border-width: 2px;
+	border-style: dashed;
 }
 
+nav ul li {
+	display: inline;
+}
+
+nav ul {
+	padding-left: 0;
+	margin-left: 0;
+	background-color: #60D3FF;
+	float: left;
+	width: 100%;
+}
+
+nav ul li a {
+	padding: 0.2em 1em;
+	background-color: #60D3FF;
+	color: White;
+	float: left;
+	border-right: 1px solid #fff;
+}
+
+nav ul li a:hover {
+	background-color: #0AB9FB;
+	color: black;	
+}
+
+body {
+	background-color: #C0EDFF;
+}
