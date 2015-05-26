@@ -2,15 +2,12 @@ h1 {
 	color: #60D3FF;
 	font-family: apple chancery, arial, sans-serif;
 	padding-left: 100px;
-	border-width: 6px;
-	border-style: none;
-	margin-left:10px;
-
+	padding-bottom: 0px;
+	margin-left: 100px;
 }
 
 #bodyplace {
-	margin-top:0;
-	margin-left: 0;
+	margin: 1px 100px 10px 100px;
 	padding-left: 100px;
 }
 nav ul li {
@@ -37,8 +34,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	background-color: #0AB9FB;
-	color: black;
+	text-decoration: underline;
 	
 }
 
@@ -50,20 +46,13 @@ h2 {
 	font-size: 90%;
 	font-family: sans-serif;
 	color: #FFFFFF;
-	margin-left: 100px;
-}
-
-#poem {
-	margin: 1px 100px 10px 100px;
-	color:#0AB9FB;
-	font-weight: bold;
-	font-family: sans-serif;
+	margin-left: 200px;
+	padding-top: 0.5px;
 }
 
 a {
 	text-decoration: none;
 }
-
-ul {
-	
+#group1 {
+	margin-left: 200px;
 }
