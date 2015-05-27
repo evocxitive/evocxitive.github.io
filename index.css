@@ -7,7 +7,9 @@ h1 {
 	margin-bottom:0px;
 	margin-left: 110px;
 }
-
+.abouttitle {
+	margin-left: 55px;
+}
 #bodyplace {
 	margin: 1px 100px 10px 100px;
 	padding-left: 100px;
@@ -53,7 +55,13 @@ h2 {
 	margin-top:0px;
 	padding-top: 0px;
 }
-
+p {
+	font-size: 90%;
+	font-family: 'Alegreya Sans', sans-serif;
+	color: #FFFFFF;
+	margin-left: 150px;
+	min-width: 1400px;
+}
 a {
 	font-family: 'Alegreya Sans', sans-serif;
 	text-decoration: none;
@@ -67,4 +75,10 @@ a {
 	margin-top: 25px;
 	margin-left: 210px;
 	position:static;
+}
+img{
+	transition: 1s;
+}
+img:hover{
+	transform: scale(1.1);
 }
