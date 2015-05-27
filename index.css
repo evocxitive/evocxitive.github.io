@@ -78,6 +78,7 @@ a {
 }
 img{
 	transition: 1s;
+	margin-right: 5px;
 }
 img:hover{
 	transform: scale(1.1);
