@@ -9,6 +9,7 @@ h1 {
 }
 .abouttitle {
 	margin-left: 55px;
+	text-align: center;
 }
 #bodyplace {
 	margin: 1px 100px 10px 100px;
@@ -16,6 +17,9 @@ h1 {
 }
 nav ul li {
 	display: block;
+	font-size: 140%;
+	text-align: center;
+	padding-left: 0;
 }
 
 nav ul {
@@ -23,12 +27,13 @@ nav ul {
 	margin-bottom:0%;
 	margin-top: 0;
 	margin-right: 0;
+	padding-left: 0;
 	padding-bottom: 100%;
 	padding-top: 100px;
 	background-color: #172557;
 	float: left;
-	width: 100px;
-	
+	min-height: 1516px;
+	width: 150px;
 }
 
 nav ul li a {
@@ -38,13 +43,12 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-	text-decoration: underline;
-	
+	text-decoration: underline;	
 }
 
 body {
 	background-color: #07123A;
-	min-width: 1232px;
+	min-width: 1258px;
 }
 
 h2 {
@@ -55,12 +59,23 @@ h2 {
 	margin-top:0px;
 	padding-top: 0px;
 }
+h3{
+	color: #fff;
+	margin-left: none;
+}
+article{
+	-webkit-columns: 2 400px;
+		-moz-columns: 2 400px;
+			columns:2 400px;
+}
 p {
-	font-size: 90%;
+	font-size: 100%;
 	font-family: 'Alegreya Sans', sans-serif;
 	color: #FFFFFF;
+	padding-top: 60px;
 	margin-left: 150px;
-	min-width: 1400px;
+	min-width: 1258px;
+	float: left;
 }
 a {
 	font-family: 'Alegreya Sans', sans-serif;
@@ -82,4 +97,21 @@ img{
 }
 img:hover{
 	transform: scale(1.1);
+}
+
+#aboutphoto{
+	padding-top: 15px;
+	padding-left: 50px;
+	margin-left: 200px;
+	transition: none;
+}
+#aboutphoto:hover{
+	transform: none;
+}
+.profilep{
+	margin-top:0;
+	margin-left: 300px;
+}
+.names{
+	margin-left: 200px;
 }
