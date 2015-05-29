@@ -11,6 +11,7 @@ h1 {
 	margin-left: 55px;
 	text-align: center;
 }
+
 #bodyplace {
 	margin: 1px 100px 10px 100px;
 	padding-left: 100px;
@@ -61,7 +62,7 @@ h2 {
 }
 h3{
 	color: #fff;
-	margin-left: none;
+	margin-left:200px;
 }
 article{
 	-webkit-columns: 2 400px;
@@ -75,11 +76,12 @@ p {
 	padding-top: 60px;
 	margin-left: 150px;
 	min-width: 1258px;
-	float: left;
+
 }
 a {
 	font-family: 'Alegreya Sans', sans-serif;
 	text-decoration: none;
+	color:#5591C3;
 }
 #group1 {
 	margin-left: 210px;
@@ -109,9 +111,28 @@ img:hover{
 	transform: none;
 }
 .profilep{
+	padding-top: 0;
 	margin-top:0;
-	margin-left: 300px;
+	margin-left: 200px;
+
 }
 .names{
+	font-style: italic;
 	margin-left: 200px;
+	margin-bottom:0;
+} 
+
+.profilephoto{
+	margin-left: 200px;
+	transition:none;
+}
+.profilephoto:hover{
+	transform: none;
+}
+.profilephoto1{
+	margin-left: 100px;
+	transition:none;
+}
+.profilephoto1:hover{
+	transform:none;
 }
